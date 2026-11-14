@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="DealProof M&amp;A research and financial modeling platform">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07151c"/><stop offset=".47" stop-color="#061c26"/><stop offset="1" stop-color="#0a3936"/></linearGradient>
+<radialGradient id="glow" cx="80%" cy="37%" r="62%"><stop stop-color="#1a6658" stop-opacity=".55"/><stop offset=".45" stop-color="#104a49" stop-opacity=".20"/><stop offset="1" stop-color="#081923" stop-opacity="0"/></radialGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b4147" stop-opacity=".92"/><stop offset=".56" stop-color="#0c3037" stop-opacity=".88"/><stop offset="1" stop-color="#0c202e" stop-opacity=".93"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#277a66"/><stop offset="1" stop-color="#a2efbf"/></linearGradient>
+<linearGradient id="line" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#417a72"/><stop offset="1" stop-color="#a6efbd"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#06151c" stop-opacity=".86"/><stop offset=".50" stop-color="#071821" stop-opacity=".72"/><stop offset=".72" stop-color="#071b23" stop-opacity=".08"/><stop offset="1" stop-color="#071b23" stop-opacity="0"/></linearGradient>
+<clipPath id="clip"><rect width="1200" height="630"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#glow)"/>
+<g stroke="#6bc4ac" stroke-opacity=".13" stroke-width="1" fill="none">
+<path d="M520 627L880 35M620 627L995 23M730 627L1120 10M850 627L1240 55"/>
+<path d="M595 522L1200 522M642 465L1200 465M692 405L1200 405M756 339L1200 339M805 278L1200 278"/>
+<circle cx="1080" cy="130" r="189" stroke-opacity=".22"/><circle cx="1080" cy="130" r="134" stroke-opacity=".19"/><circle cx="1080" cy="130" r="79" stroke-opacity=".15"/><ellipse cx="1080" cy="130" rx="70" ry="189" stroke-opacity=".24"/>
+</g>
+<path d="M430 644Q827 570 1207 425" stroke="#95eaba" stroke-width="2" fill="none" opacity=".42"/>
+<path d="M570 650Q863 605 1220 496" stroke="#549e83" stroke-width="1.4" fill="none" opacity=".35"/>
+<g transform="translate(927 75) rotate(-4)"><rect width="238" height="177" rx="19" fill="url(#panel)" stroke="#8ddec2" stroke-opacity=".27" stroke-width="1.5"/><path d="M35 126V98H91V63H152V37H192" stroke="#93deb9" stroke-width="3" opacity=".43" fill="none"/><g fill="#89d5b1"><rect x="19" y="111" width="26" height="26" rx="5" opacity=".52"/><rect x="82" y="48" width="26" height="26" rx="5" opacity=".68"/><rect x="142" y="111" width="26" height="26" rx="5" opacity=".62"/><rect x="181" y="18" width="26" height="26" rx="5" opacity=".85"/></g></g>
+<g transform="translate(725 135) rotate(-4 205 135)"><rect width="403" height="242" rx="23" fill="url(#panel)" stroke="#8ed9c2" stroke-opacity=".63" stroke-width="1.65"/><path d="M2 54H401" stroke="#a6d9ca" stroke-opacity=".22"/><g fill="#b9dac9"><circle cx="24" cy="27" r="6"/><circle cx="45" cy="27" r="6" opacity=".7"/><circle cx="66" cy="27" r="6" opacity=".6"/></g><rect x="291" y="22" width="78" height="11" rx="5" fill="#436962" opacity=".60"/><g stroke="#7ab6a9" stroke-opacity=".18" stroke-width="1"><path d="M69 67V217"/><path d="M127 67V217"/><path d="M185 67V217"/><path d="M243 67V217"/><path d="M301 67V217"/><path d="M358 67V217"/><path d="M27 99H376"/><path d="M27 140H376"/><path d="M27 181H376"/><path d="M27 222H376"/></g>
+<path d="M29 210L68 185 100 192 141 154 164 164 205 124 239 138 271 100 303 105 331 79 355 85 374 53V220H29Z" fill="#2ca483" fill-opacity=".12"/>
+<polyline points="29,210 68,185 100,192 141,154 164,164 205,124 239,138 271,100 303,105 331,79 355,85 374,53" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="374" cy="53" r="6" fill="#b0f5c4"/></g>
+<g transform="translate(638 312) rotate(4 120 60)"><rect width="242" height="121" rx="18" fill="url(#panel)" stroke="#8ce2c3" stroke-opacity=".62" stroke-width="1.4"/><g stroke="#99d3c2" stroke-width="3" stroke-opacity=".88" fill="none"><path d="M47 37C95 37 103 62 136 62"/><path d="M47 89C95 89 103 62 136 62"/><path d="M151 62H206"/><path d="M198 54L207 62 198 70"/></g><circle cx="45" cy="37" r="18" fill="#6da8a3" stroke="#c3e3d4" stroke-width="1.5"/><circle cx="45" cy="89" r="18" fill="#6da8a3" stroke="#c3e3d4" stroke-width="1.5"/><circle cx="142" cy="62" r="19" fill="#9ce0b5" stroke="#ccffda" stroke-width="1.5"/><circle cx="214" cy="62" r="13" fill="#2f846b" stroke="#9bd6b2" stroke-width="1.4"/></g>
+<g transform="translate(949 325) rotate(4 116 65)"><rect width="224" height="147" rx="18" fill="url(#panel)" stroke="#91dbbd" stroke-opacity=".55" stroke-width="1.5"/><line x1="23" y1="115" x2="204" y2="115" stroke="#89c5b0" stroke-opacity=".52"/><rect x="31" y="87" width="18" height="28" rx="2" fill="url(#bar)"/><rect x="57" y="76" width="18" height="39" rx="2" fill="url(#bar)"/><rect x="83" y="64" width="18" height="51" rx="2" fill="url(#bar)"/><rect x="109" y="51" width="18" height="64" rx="2" fill="url(#bar)"/><rect x="135" y="38" width="18" height="77" rx="2" fill="url(#bar)"/><rect x="161" y="25" width="18" height="90" rx="2" fill="url(#bar)"/></g>
+<g transform="translate(759 465) rotate(3 150 54)"><rect width="293" height="105" rx="18" fill="url(#panel)" stroke="#a0ddc8" stroke-opacity=".49" stroke-width="1.3"/><g fill="#7aa9a3" opacity=".62"><rect x="20" y="21" width="98" height="11" rx="5"/><rect x="148" y="21" width="96" height="11" rx="5"/><rect x="20" y="44" width="72" height="9" rx="4"/><rect x="148" y="44" width="110" height="9" rx="4"/><rect x="20" y="66" width="115" height="9" rx="4"/><rect x="148" y="66" width="91" height="9" rx="4"/></g></g>
+<rect width="950" height="630" fill="url(#fade)"/>
+<rect x="62" y="59" width="58" height="58" rx="13" fill="#b9dfc8"/>
+<g font-family="Inter Display,Inter,Arial,sans-serif">
+<text x="76" y="104" fill="#08221e" font-size="47" font-weight="750">D</text>
+<text x="141" y="105" fill="#f0f8f2" font-size="41" font-weight="750">DealProof</text>
+<rect x="62" y="145" width="244" height="3" rx="1.5" fill="#609f8b"/>
+<text x="62" y="210" fill="#b9daca" font-size="18" font-weight="600" letter-spacing=".4">M&amp;A RESEARCH  /  FINANCIAL MODELING</text>
+<text x="60" y="311" fill="#f0f8f2" font-size="64" font-weight="750">Model the deal.</text>
+<text x="60" y="385" fill="#b9e2c8" font-size="64" font-weight="750">Trace the data.</text>
+<text x="63" y="459" fill="#d3e3dc" font-size="22">SEC-linked fundamentals, merger scenarios,</text>
+<text x="63" y="494" fill="#d3e3dc" font-size="22">and historical M&amp;A research.</text>
+<line x1="62" y1="554" x2="595" y2="554" stroke="#639d8f" stroke-width="1.5"/>
+<text x="62" y="589" fill="#b2ccbe" font-size="15">ACQUISITIONS  •  MERGERS  •  DEAL HISTORY</text>
+</g></g></svg>
