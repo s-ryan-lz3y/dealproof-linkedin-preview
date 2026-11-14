@@ -1,0 +1,22 @@
+DEALPROOF GITHUB PAGES TEST - DO NOT UPLOAD THIS INSTRUCTIONS FILE
+
+1. Go to https://github.com/new
+2. Owner: s-ryan-lz3y
+3. Repository name: dealproof-linkedin-preview
+4. Visibility: Public. Do not change the visibility of your existing DealProof or InternTrack repos.
+5. Click Create repository.
+6. Click 'uploading an existing file' (or Add file > Upload files).
+7. Upload only index.html, social-preview.png, and .nojekyll from this ZIP.
+   GitHub's upload UI may not display hidden .nojekyll; it is optional for this simple page.
+8. Commit changes to main.
+9. Repository Settings > Pages > Build and deployment > Source: Deploy from a branch.
+   Branch: main; folder: /(root); Save.
+10. GitHub Pages will display the live site URL when publishing finishes.
+
+Expected URL (not active until steps above finish):
+https://s-ryan-lz3y.github.io/dealproof-linkedin-preview/
+
+Compare it with the real Cloudflare URL in LinkedIn Add Media:
+https://dealproof-2vq.pages.dev/
+
+Only this small landing page is hosted on GitHub. The full DealProof app stays on Cloudflare.
