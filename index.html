@@ -46,5 +46,16 @@
   <a class="button" href="https://dealproof-2vq.pages.dev/" target="_blank" rel="noopener noreferrer">Open the full DealProof application ↗</a>
   <footer>This is a small static GitHub Pages link-preview test. The actual DealProof application remains hosted on Cloudflare Pages. No calculations or data services run on this page.</footer>
 </main>
+  <script>
+    // Keep this page's social preview available to LinkedIn and other crawlers.
+    // Send human visitors straight to the full DealProof application.
+    (() => {
+      const crawler = /LinkedInBot|facebookexternalhit|Facebot|Twitterbot|Slackbot|Discordbot|TelegramBot|WhatsApp|Googlebot|bingbot|crawler|spider|bot/i.test(navigator.userAgent || "");
+      if (crawler) return;
+      window.setTimeout(() => {
+        window.location.replace("https://dealproof-2vq.pages.dev/");
+      }, 200);
+    })();
+  </script>
 </body>
 </html>
