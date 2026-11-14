@@ -1,0 +1,30 @@
+name: Render DealProof social preview (one-time asset build)
+on:
+  pull_request:
+    paths:
+      - social-preview-v2.svg
+      - .github/workflows/render-social-preview.yml
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Render 1200x630 PNG and emit encoded asset in log
+        run: |
+          pip install --disable-pip-version-check cairosvg
+          python - <<'PY'
+          import base64, cairosvg, struct
+          png=cairosvg.svg2png(url="social-preview-v2.svg")
+          assert png[:8]==b'\x89PNG\r\n\x1a\n'
+          assert struct.unpack(">II",png[16:24])==(1200,630)
+          encoded=base64.b64encode(png).decode("ascii")
+          print("SOCIAL_ASSET_INFO:1200x630:"+str(len(png)))
+          for i in range(0,len(encoded),1800):
+              print(f"SOCIAL_PNG_CHUNK:{i//1800:04d}:{encoded[i:i+1800]}")
+          PY
